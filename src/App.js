@@ -3,7 +3,7 @@ import AboutPage from "./components/about";
 import ContactPage from "./components/contact";
 import ServicePage from "./components/projects";
 import HomePage from "./components/home";
-import Main from "./components/tik tae toe/main";
+import Tik from "./components/tik/main";
 import Weather from "./components/weatherApp/main";
 import Taskmanager from "./components/taskManager/main";
 import Quizapp from "./components/quizApp/components/main";
@@ -170,7 +170,7 @@ function App() {
                     transition={{ duration: 1.5 }}
                     className="h-full w-full flex justify-center items-center"
                   >
-                    <Main />
+                    <Tik />
                   </motion.div>
                 }
               />
