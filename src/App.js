@@ -3,7 +3,7 @@ import AboutPage from "./components/about";
 import ContactPage from "./components/contact";
 import ServicePage from "./components/projects";
 import HomePage from "./components/home";
-import Tik from "./components/tik/main";
+import Tik from "./components/tik/main.jsx";
 import Weather from "./components/weatherApp/main";
 import Taskmanager from "./components/taskManager/main";
 import Quizapp from "./components/quizApp/components/main";
