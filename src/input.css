@@ -1,1 +1,10 @@
 @import "tailwindcss";
+@layer base {
+  a {
+    color: inherit; /* رنگ متن را از والد به ارث میبرد */
+    text-decoration: none; /* زیرخط را حذف میکند */
+  }
+  a:hover {
+    color: inherit; /* رنگ هاور را نیز تغییر میدهد */
+  }}
+  
